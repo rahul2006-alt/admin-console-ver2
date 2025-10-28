@@ -1,0 +1,83 @@
+[
+  {
+    "id": "bp-001",
+    "name": "WellnessTree Studio",
+    "type": "provider",
+    "roles": ["provider"],
+    "contactPerson": "Rajesh Kumar",
+    "contactEmail": "rajesh@wellnesstree.com",
+    "contactPhone": "+91-98765-43210",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "country": "India",
+    "status": "active"
+  },
+  {
+    "id": "bp-002",
+    "name": "Sunrise Hospital",
+    "type": "dual",
+    "roles": ["provider", "institution"],
+    "contactPerson": "Dr. Priya Sharma",
+    "contactEmail": "priya@sunrisehospital.com",
+    "contactPhone": "+91-98765-43211",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "country": "India",
+    "status": "active"
+  },
+  {
+    "id": "bp-003",
+    "name": "TechCorp India",
+    "type": "institution",
+    "roles": ["institution"],
+    "contactPerson": "Amit Patel",
+    "contactEmail": "amit@techcorp.in",
+    "contactPhone": "+91-98765-43212",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "country": "India",
+    "status": "active"
+  },
+  {
+    "id": "bp-004",
+    "name": "WellnessTree Pune Center",
+    "type": "center",
+    "roles": ["center"],
+    "parentId": "bp-001",
+    "contactPerson": "Sneha Desai",
+    "contactEmail": "sneha@wellnesstree-pune.com",
+    "contactPhone": "+91-98765-43213",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "country": "India",
+    "status": "active"
+  },
+  {
+    "id": "bp-005",
+    "name": "Sunrise Rehab Center",
+    "type": "center",
+    "roles": ["center"],
+    "parentId": "bp-002",
+    "contactPerson": "Dr. Anil Verma",
+    "contactEmail": "anil@sunrise-rehab.com",
+    "contactPhone": "+91-98765-43214",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "country": "India",
+    "status": "active"
+  },
+  {
+    "id": "bp-006",
+    "name": "TechCorp Wellness Hub",
+    "type": "center",
+    "roles": ["center"],
+    "parentId": "bp-003",
+    "contactPerson": "Kavita Singh",
+    "contactEmail": "kavita@techcorp-wellness.com",
+    "contactPhone": "+91-98765-43215",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "country": "India",
+    "status": "active"
+  }
+]

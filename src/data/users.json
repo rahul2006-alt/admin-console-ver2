@@ -1,0 +1,110 @@
+[
+  {
+    "id": "usr-001",
+    "name": "Admin User",
+    "email": "admin@swastham.com",
+    "mobile": "+91-99999-00001",
+    "role": "super_admin",
+    "status": "active",
+    "partnerLinks": []
+  },
+  {
+    "id": "usr-002",
+    "name": "Rajesh Kumar",
+    "email": "rajesh@wellnesstree.com",
+    "mobile": "+91-98765-43210",
+    "role": "provider_admin",
+    "status": "active",
+    "partnerLinks": [{"partnerId": "bp-001", "relationshipType": "admin"}]
+  },
+  {
+    "id": "usr-003",
+    "name": "Meera Shah",
+    "email": "meera@wellnesstree.com",
+    "mobile": "+91-98765-43220",
+    "role": "content_author",
+    "status": "active",
+    "partnerLinks": [{"partnerId": "bp-001", "relationshipType": "author"}]
+  },
+  {
+    "id": "usr-004",
+    "name": "Shalini Rao",
+    "email": "shalini@wellnesstree.com",
+    "mobile": "+91-98765-43221",
+    "role": "instructor",
+    "status": "active",
+    "partnerLinks": [
+      {"partnerId": "bp-001", "relationshipType": "instructor"},
+      {"partnerId": "bp-004", "relationshipType": "instructor"}
+    ]
+  },
+  {
+    "id": "usr-005",
+    "name": "Dr. Priya Sharma",
+    "email": "priya@sunrisehospital.com",
+    "mobile": "+91-98765-43211",
+    "role": "provider_admin",
+    "status": "active",
+    "partnerLinks": [{"partnerId": "bp-002", "relationshipType": "admin"}]
+  },
+  {
+    "id": "usr-006",
+    "name": "Dr. Anil Verma",
+    "email": "anil@sunrise-rehab.com",
+    "mobile": "+91-98765-43214",
+    "role": "consultant",
+    "status": "active",
+    "partnerLinks": [
+      {"partnerId": "bp-002", "relationshipType": "consultant"},
+      {"partnerId": "bp-005", "relationshipType": "consultant"}
+    ]
+  },
+  {
+    "id": "usr-007",
+    "name": "Nurse Rita Das",
+    "email": "rita@sunrisehospital.com",
+    "mobile": "+91-98765-43230",
+    "role": "end_user",
+    "status": "active",
+    "partnerLinks": [{"partnerId": "bp-002", "relationshipType": "member"}]
+  },
+  {
+    "id": "usr-008",
+    "name": "Amit Patel",
+    "email": "amit@techcorp.in",
+    "mobile": "+91-98765-43212",
+    "role": "institution_admin",
+    "status": "active",
+    "partnerLinks": [{"partnerId": "bp-003", "relationshipType": "admin"}]
+  },
+  {
+    "id": "usr-009",
+    "name": "Rahul Mehta",
+    "email": "rahul@techcorp.in",
+    "mobile": "+91-98765-43240",
+    "role": "end_user",
+    "status": "active",
+    "partnerLinks": [{"partnerId": "bp-003", "relationshipType": "member"}]
+  },
+  {
+    "id": "usr-010",
+    "name": "Priya Nair",
+    "email": "priya.nair@techcorp.in",
+    "mobile": "+91-98765-43241",
+    "role": "end_user",
+    "status": "active",
+    "partnerLinks": [{"partnerId": "bp-003", "relationshipType": "member"}]
+  },
+  {
+    "id": "usr-011",
+    "name": "Kavita Singh",
+    "email": "kavita@techcorp-wellness.com",
+    "mobile": "+91-98765-43215",
+    "role": "instructor",
+    "status": "active",
+    "partnerLinks": [
+      {"partnerId": "bp-003", "relationshipType": "instructor"},
+      {"partnerId": "bp-006", "relationshipType": "instructor"}
+    ]
+  }
+]
